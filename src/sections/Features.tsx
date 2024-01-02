@@ -46,8 +46,9 @@ const FeatureTab = (tab: (typeof tabs)[number]) => {
     <div
       onMouseEnter={handleTabHover}
       key={tab.title}
-      className="border border-white/15 flex flex-col lg:flex-row justify-center items-center flex-1 p-2.5 rounded-xl gap-2.5"
+      className="border border-white/15 flex flex-col lg:flex-row justify-center  items-center flex-1 p-2.5 rounded-xl gap-2.5 relative"
     >
+      <div className="absolute inset-0 -m-px border rounded-xl border-[#ac69ff]/70 [mask-image:radial-gradient(80px_80px_at_0%_0%,black,transparent)]"></div>
       <div className="h-12 w-12 border border-white/15 rounded-lg inline-flex items-center justify-center">
         <DotLottiePlayer
           ref={dotLottieRef}
