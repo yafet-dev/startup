@@ -13,7 +13,7 @@ export const Header = () => {
               </div>
             </div>
 
-            <div>
+            <div className="hidden md:block">
               <nav className="flex gap-8 text-sm">
                 <a
                   href="#"
