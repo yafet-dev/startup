@@ -6,7 +6,7 @@ export const Header = () => {
     <header className="py-4 border-b border-white/15 md:border-none">
       <div className="container">
         <div>
-          <div className="flex justify-between items-center border">
+          <div className="flex justify-between items-center border border-white/15 p-2.5 rounded-xl max-w-2xl mx-auto">
             <div>
               <div className="border h-10 w-10 rounded-lg inline-flex justify-center items-center border-white/15">
                 <LogoIcon className="border h-8 w-8 " />
@@ -14,14 +14,23 @@ export const Header = () => {
             </div>
 
             <div>
-              <nav className="flex gap-8  transition">
-                <a href="#" className=" text-white/70 hover:text-white">
+              <nav className="flex gap-8 text-sm">
+                <a
+                  href="#"
+                  className=" text-white/70 hover:text-white transition"
+                >
                   Features
                 </a>
-                <a href="#" className=" text-white/70 hover:text-white">
+                <a
+                  href="#"
+                  className=" text-white/70 hover:text-white transition"
+                >
                   Developers
                 </a>
-                <a href="#" className=" text-white/70 hover:text-white">
+                <a
+                  href="#"
+                  className=" text-white/70 hover:text-white transition"
+                >
                   Pricing
                 </a>
                 <a href="#" className=" text-white/70 hover:text-white">
@@ -43,7 +52,7 @@ export const Header = () => {
                 <span>Join waitlist</span>
               </button>
               <span>
-                <MenuIcon />
+                <MenuIcon className="md:hidden" />
               </span>
             </div>
           </div>
