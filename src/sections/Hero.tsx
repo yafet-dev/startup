@@ -9,6 +9,7 @@ export const Hero = () => {
         backgroundImage: `url(${starsBg.src})`,
       }}
     >
+      <div className="absolute"></div>
       <div className="container">
         <h1
           className="text-8xl font-semibold tracking-tighter bg-white text-transparent bg-clip-text text-center 
