@@ -7,9 +7,9 @@ import echoLogo from "@/assets/logo-echo.png";
 
 export const LogoTicker = () => {
   return (
-    <section>
+    <section className="py-20">
       <div className="container">
-        <div className="flex">
+        <div className="flex items-center">
           <div className="flex-1">
             <h2>Trusted by top innovate teams</h2>
           </div>
@@ -23,7 +23,7 @@ export const LogoTicker = () => {
                 celestialLogo,
                 apexLogo,
               ].map((logo, index) => (
-                <img src={logo.src} key={index} className="h-6 w-auto " />
+                <img src={logo.src} key={index} className="h-6 w-auto" />
               ))}
             </div>
           </div>
