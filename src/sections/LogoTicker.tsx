@@ -9,19 +9,23 @@ export const LogoTicker = () => {
   return (
     <section>
       <div className="container">
-        <div>
-          <h2>Trusted by top innovate teams</h2>
-          <div>
-            {[
-              acmeLogo,
-              pulseLogo,
-              echoLogo,
-              quantumLogo,
-              celestialLogo,
-              apexLogo,
-            ].map((logo) => (
-              <img src={logo.src} key={logo.src} />
-            ))}
+        <div className="flex">
+          <div className="flex-1">
+            <h2>Trusted by top innovate teams</h2>
+          </div>
+          <div className="flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
+            <div className="flex flex-none gap-14">
+              {[
+                acmeLogo,
+                pulseLogo,
+                echoLogo,
+                quantumLogo,
+                celestialLogo,
+                apexLogo,
+              ].map((logo, index) => (
+                <img src={logo.src} key={index} className="h-6 w-auto " />
+              ))}
+            </div>
           </div>
         </div>
       </div>
