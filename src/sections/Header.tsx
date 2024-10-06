@@ -3,7 +3,7 @@ import MenuIcon from "@/assets/icon-menu.svg";
 import { Button } from "@/components/Button";
 export const Header = () => {
   return (
-    <header className="py-4 border-b border-white/15 md:border-none">
+    <header className="py-4 border-b border-white/15 md:border-none mb-4 md:-mb-10">
       <div className="container">
         <div>
           <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto">
