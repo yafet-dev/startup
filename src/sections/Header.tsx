@@ -6,7 +6,7 @@ export const Header = () => {
     <header className="py-4 border-b border-white/15 md:border-none">
       <div className="container">
         <div>
-          <div className="flex justify-between items-center border border-white/15 p-2.5 rounded-xl max-w-2xl mx-auto">
+          <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto">
             <div>
               <div className="border h-10 w-10 rounded-lg inline-flex justify-center items-center border-white/15">
                 <LogoIcon className="border h-8 w-8 " />
