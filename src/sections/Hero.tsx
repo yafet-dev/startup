@@ -14,14 +14,14 @@ export const Hero = () => {
 
       {/*  */}
       <div
-        className="absolute bg-purple-500 h-64 w-64 rounded-full border top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-white/20 
+        className="absolute md:h-96 md:w-96 bg-purple-500 h-64 w-64 rounded-full border top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-white/20 
   bg-[radial-gradient(50%_50%_at_16.8%_18.3%,white,rgb(182,148,255)_37.7%,rgb(24,0,66))] 
   shadow-[-20px_-20px_50px_rgb(255,255,255,.5),-20px_-20px_80px_rgb(255,255,255,0.1),0_0_50px_rgb(140,69,255)]"
       ></div>
       {/* End Planet */}
       {/* Start Ring 1 */}
 
-      <div className="absolute w-[344px] h-[344px] opacity-20 border rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute w-[344px] h-[344px] md:h-[580px] md:w-[580px] opacity-20 border rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="rounded-full absolute h-2 w-2 left-0 bg-white top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
         <div className="rounded-full absolute h-2 w-2 left-1/2 bg-white top-0 -translate-x-1/2 -translate-y-1/2"></div>
         <div className="rounded-full absolute h-5 w-5 left-full border border-white top-1/2 -translate-x-1/2 -translate-y-1/2 inline-flex justify-center items-center ">
@@ -31,11 +31,12 @@ export const Hero = () => {
       {/*End Ring 1 */}
       {/*  Start Ring two*/}
       <div
-        className="absolute h-[444px] w-[444px] rounded-full border border-white/20 top-1/2 left-1/2
+        className="absolute h-[444px] w-[444px]  md:h-[780px] md:w-[780px] rounded-full border border-white/20 top-1/2 left-1/2
       -translate-x-1/2 -translate-y-1/2 border-dashed"
       ></div>
       {/*End Ring 2  */}
-      <div className="absolute h-[544px] w-[544px] opacity-20 rounded-full border border-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      {/*Start Ring 3 */}
+      <div className="absolute h-[544px] w-[544px] md:h-[980px] md:w-[980px] opacity-20 rounded-full border border-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="rounded-full absolute h-2 w-2 left-0 bg-white top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
         <div className="rounded-full absolute h-2 w-2 left-full bg-white top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
       </div>
