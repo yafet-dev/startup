@@ -1,5 +1,7 @@
 "use client";
 import { DotLottiePlayer } from "@dotlottie/react-player";
+import productImage from "@/assets/product-image.png";
+import Image from "next/image";
 
 const tabs = [
   {
@@ -45,6 +47,7 @@ export const Features = () => {
             {tab.isNew && <div>new</div>}
           </div>
         ))}
+        <Image src={productImage} alt="product iamge" />
       </div>
     </section>
   );
