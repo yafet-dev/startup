@@ -26,5 +26,15 @@ const tabs = [
 ];
 
 export const Features = () => {
-  return <section>Features</section>;
+  return (
+    <section>
+      <div className="container">
+        <h2>Elevate your SEO efforts</h2>
+        <p>
+          From small startups to large enterprises, our AI-driven tools has
+          revolutionzied the way businesses approach SEO
+        </p>
+      </div>
+    </section>
+  );
 };
