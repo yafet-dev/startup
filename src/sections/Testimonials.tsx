@@ -2,6 +2,7 @@ import avatar1 from "@/assets/avatar-1.png";
 import avatar2 from "@/assets/avatar-2.png";
 import avatar3 from "@/assets/avatar-3.png";
 import avatar4 from "@/assets/avatar-4.png";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -31,5 +32,26 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
-  return <section>testimonial section</section>;
+  return (
+    <section>
+      <div className="container">
+        <h2>Beyond Expectations</h2>
+        <p>
+          Our revolutionary AI SEO tools have transformed our clients'
+          strategies{" "}
+        </p>
+        {testimonials.map((testimonial) => (
+          <div key={testimonial.name}>
+            <div>{testimonial.text}</div>
+            <Image
+              src={testimonial.avatarImg}
+              alt={`Avatar for ${testimonial.name}`}
+            />
+            <div>{testimonial.title}</div>
+            <div>{testimonial.name}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };
