@@ -1,3 +1,7 @@
 export const CallToAction = () => {
-  return <section>CallToAction</section>;
+  return (
+    <section>
+      <div className="container">Call to action</div>
+    </section>
+  );
 };
