@@ -31,5 +31,5 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
-  return <section>Testimonials</section>;
+  return <section>testimonial section</section>;
 };
