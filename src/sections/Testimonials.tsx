@@ -27,7 +27,7 @@ const testimonials = [
     avatarImg: avatar3,
   },
   {
-    text: "“Our team's productivity has increased significantly since we started using this tool”",
+    text: "“Our team&apos;s productivity has increased significantly since we started using this tool”",
     name: "Alec Whitten",
     title: "CTO @ Tech Solutions",
     avatarImg: avatar4,
@@ -42,7 +42,7 @@ export const Testimonials = () => {
           Beyond Expectations
         </h2>
         <p className="text-white/70 text-lg md:text-xl text-center mt-5 tracking-tighter max-w-sm mx-auto">
-          Our revolutionary AI SEO tools have transformed our clients'
+          Our revolutionary AI SEO tools have transformed our clients&apos;
           strategies{" "}
         </p>
         <div className="flex overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
