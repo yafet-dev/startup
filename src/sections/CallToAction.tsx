@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/button";
+import { Button } from "@/components/Button";
 import BackgroundStars from "@/assets/stars.png";
 import BackgroundGrid from "@/assets/grid-lines.png";
 import {
