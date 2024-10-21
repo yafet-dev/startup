@@ -27,7 +27,7 @@ const testimonials = [
     avatarImg: avatar3,
   },
   {
-    text: "“Our team&apos;s productivity has increased significantly since we started using this tool”",
+    text: "“Our team's productivity has increased significantly since we started using this tool”",
     name: "Alec Whitten",
     title: "CTO @ Tech Solutions",
     avatarImg: avatar4,
