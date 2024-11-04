@@ -6,7 +6,7 @@ import { twMerge } from "tailwind-merge";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "WebWeave,
+  title: "WebWeave",
   description: "A landing page for an AI startup",
 };
 
